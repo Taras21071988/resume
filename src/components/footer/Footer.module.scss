@@ -1,0 +1,14 @@
+.footer {
+  position: relative;
+  &::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 70px;
+    background-color: #ced7df;
+  }
+  .footerWrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+}
