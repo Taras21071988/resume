@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+ul,
+ol {
+  padding: 0;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+// #root {
+//   height: 100vh;
+// }
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.title{
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: #a4a4a4;
+  margin-bottom: 50px;
+}
