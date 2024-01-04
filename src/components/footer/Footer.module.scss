@@ -10,5 +10,30 @@
   .footerWrapper {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 50px;
+    a,
+    p {
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      letter-spacing: 1px;
+      margin-bottom: 5px;
+    }
+    .detailsWrapper {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+
+      .detailsMail {
+        text-decoration-line: underline;
+      }
+    }
+    .linksWrapper {
+      display: flex;
+      flex-direction: column;
+      max-width: 300px;
+      a {
+        text-decoration-line: underline;
+      }
+    }
   }
 }

@@ -8,9 +8,17 @@
     .performanceName {
       font-family: "Montserrat", sans-serif;
       font-weight: 400;
-
       letter-spacing: 10px;
       margin-bottom: 50px;
+      animation: name 5s forwards;
+      @keyframes name {
+        0% {
+          opacity: 0.1;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
     }
     .performanceJob {
       font-weight: 400;
