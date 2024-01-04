@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import cl from "./Profile.module.scss";
 
 const Profile = () => {
@@ -6,6 +6,7 @@ const Profile = () => {
     <div className={cl.profileWrapper}>
       <div>
         <h3 className="title">Profile</h3>
+
         <p className={cl.profileText}>
           I've been studying front-end development for a year. Studied HTML,
           CSS, SASS, Java Script, Type Script, React. Examples of work can be

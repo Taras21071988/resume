@@ -6,8 +6,8 @@ import Skills from "./skills/Skills";
 const Fargments = () => {
   return (
     <div className={cl.wrapper}>
-      <Profile />
-      <Skills />
+      <Profile/>
+      <Skills/>
     </div>
   );
 };
