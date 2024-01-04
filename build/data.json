@@ -1,0 +1,12 @@
+{
+  "name": "Taras Samoilov",
+  "job": "Frontend Web Developer",
+  "profile": [
+    {
+      "texts": "I've been studying front-end development for a year. Studied HTML,CSS, SASS, Java Script, Type Script, React. Examples of work can be viewed on my Git Hub profile."
+    },
+    {
+      "texts": "Before I started studying front-end development, I worked in production where I configured software on special equipment."
+    }
+  ]
+}
